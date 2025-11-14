@@ -92,3 +92,5 @@
 1.  Jawabannya tidak harus, pengisian elemen array dapat dilakukan dari indeks ke berapapun, namun jika pengisiannya tidak berurutan atau dilewati, maka elemen sebelumnya akan bernilai default sesuai tipe data nya
 2.  Karena elemen array indeks terakhir ([3][1]) tidak diisi, maka nilainya akan diisi nilai default, kenapa _null_? karena tipe data array adalah String, jadi nilai default String adalah null
 3.  Done
+4.  penonton.length berfungsi untuk mengukur panjang baris elemen (row) dari sebuah array, sedangkan penonton[0].length berfungsi untuk mengukur panjang kolom elemen pertama/indeks ke-0 (column). penonton[0].length, penonton[1].length, penonton[2].length, penonton[3].length bernilai *sama* yaitu = 2, karena pada saat instansiasi array, bagian kolom diisi 2 elemen
+5.  
