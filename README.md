@@ -101,7 +101,7 @@
 10. Kelebihan foreach loop adalah lebih fleksibel dan efisien jika ingin melakukan perulangan terhadap array, karena penulisannya lebih sederhana dan ringkas, juga mengurangi risiko error indeks. Kekurangannya adalah tidak dapat mengakses indeks langsung dan lebih susah untuk melakukan kontrol looping seperti skip elemen, lompat indeks, dan lain lain.
 11. Indeks maksimal barisnya adalah *3* karena indeks dimulai dari 0.
 12. Sedangkan indeks maksimal kolomnya adalah *1* karena indeks dimulai dari 0.
-13. Sebelum itu kode perulagan pada percobaan berfungsi untuk menampikan isi dari baris array 2 dimensi, tidak secara spesifik menuju ke elemen nya, jadi fungsi _String.join()_ adalah untuk mengubah array menjadi sebuah String atau teks yang mudah untuk dibaca manusia, karena jika tidak menggunakan _String.join()_ output yang tampil adalah alamat memori dari array tersebut. pada _String.join()_ terdapat sebuah delimiter yang mana berfungsi sebagai pemisah setiap elemen array yang akan digabung.
+13. Sebelum itu kode perulagan pada percobaan berfungsi untuk menampikan isi dari baris array 2 dimensi, tidak secara spesifik menuju ke elemen nya, jadi fungsi _String.join()_ adalah untuk mengubah array menjadi sebuah String atau teks yang mudah untuk dibaca manusia, juga untuk menghindari output berupa alamat memori dari array. pada _String.join()_ terdapat sebuah delimiter yang mana berfungsi sebagai pemisah setiap elemen array yang akan digabung.
 
 ---
 
@@ -156,7 +156,7 @@
 
     ```java
         for(int i = 0; i < myNumbers.length; i++){
-            System.out.println("Panjang baris ke-" + (i + 1) + myNumbers[i].length);
+            System.out.println("Panjang baris ke-" + (i + 1) + ": " +  myNumbers[i].length);
         }
     ```
 
@@ -168,3 +168,5 @@
 
 1.  done ✅
 2.  Fungsi dari _Arrays.toString()_ adalah untuk mengubah array menjadi sebuah string atau teks yang mudah dibaca oleh manusia, fungsi ini juga dapat menghindari output alamat memori dari sebuah array
+3.  nilai default dari elemen Array dengan tipe data int adalah *0*
+4.  
