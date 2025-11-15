@@ -65,7 +65,7 @@ public class BioskopWithScanner24 {
                     System.out.print((i + 1) + "| ");
                     for (int j = 0; j < penonton[i].length; j++) {
                         //TAMPILAN ISI ARRAY DISINI
-                        System.out.printf("%-" + jarakBaris +"s | ", penonton[i][j]);
+                        System.out.printf("%-" + jarakBaris +"s | ", penonton[i][j] != null ? penonton[i][j] : "***");
                     }
                     System.out.println();
                 }
