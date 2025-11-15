@@ -98,5 +98,6 @@
 7.  Program akan menampilkan output tambahan yaitu "Penonton pada bari ke-3: " yaitu "Eka" dan "Farhan" hal ini dapat terjadi karena terdapat sebuah perulangan yang berfungsi untuk menampilkan seluruh kolom array penonton pada baris indeks ke 2.
 8.  Program akan menampilkan output sama seperti nomor 7, namun untuk perulangannya menggunakan foreach yang lebih fleksibel untuk perulangan menggunakan kondisi banyak data.
 9.  Kode untuk menampilkan isi array penonton menjadi lebih efisien dan fleksibel karena kita hanya menggunakan perulangan yang kodenya lebih ringkas dibanding menuliskan manual, juga sangat fleksibel karena output yang akan ditampilkan sesuai dengan kondisi yang telah diterapkan, mengurangi risiko kesalahan penulisan indeks array
-10. kelebihan foreach loop adalah lebih fleksibel dan efisien jika ingin melakukan perulangan terhadap array, karena penulisannya lebih sederhana dan ringkas, juga mengurangi risiko error indeks. Kekurangannya adalah tidak dapat mengakses indeks langsung dan lebih susah untuk melakukan kontrol looping seperti skip elemen, lompat indeks, dan lain lain.
-11. indeks maksimal barisnya adalah *3* karena indeks dimulai dari 0
+10. Kelebihan foreach loop adalah lebih fleksibel dan efisien jika ingin melakukan perulangan terhadap array, karena penulisannya lebih sederhana dan ringkas, juga mengurangi risiko error indeks. Kekurangannya adalah tidak dapat mengakses indeks langsung dan lebih susah untuk melakukan kontrol looping seperti skip elemen, lompat indeks, dan lain lain.
+11. Indeks maksimal barisnya adalah *3* karena indeks dimulai dari 0.
+12. Sedangkan indeks maksimal kolomnya adalah *1* karena indeks dimulai dari 0.
