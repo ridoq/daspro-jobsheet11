@@ -102,3 +102,28 @@
 11. Indeks maksimal barisnya adalah *3* karena indeks dimulai dari 0.
 12. Sedangkan indeks maksimal kolomnya adalah *1* karena indeks dimulai dari 0.
 13. Sebelum itu kode perulagan pada percobaan berfungsi untuk menampikan isi dari baris array 2 dimensi, tidak secara spesifik dengan kolom nya, jadi fungsi _String.join()_ adalah untuk mengubah isi array 2 dimensi menjadi sebuah teks yang mudah untuk dibaca manusia, karena jika tidak menggunakan _String.join()_ output yang tampil adalah alamat memori dari array tersebut. pada _String.join()_ terdapat sebuah delimiter yang mana berfungsi sebagai pemisah setiap elemen array yang akan digabung.
+
+---
+
+#   Percobaan 2 : Memanfaatkan Scanner dan Perulangan untuk Input dan Output pada Array 2 Dimensi 
+    Percobaan 2 ini merupakan percobaan lanjutan dari Percobaan 1. Pada percobaan ini dilakukan pembuatan kode program untuk menyimpan data nama penonton bioskop mini dengan jumlah kursi 4 baris 2 kolom dengan memanfaatkan scanner.
+
+---
+
+##  Soal
+
+1.  Apakah pengisian elemen array dari scanner harus dilakukan secara berurutan mulai dari indeks ke-0 Jelaskan! 
+2.  Modifikasi kode program untuk memberikan opsi menu sebagai berikut: 
+    - Menu 1: Input data penonton 
+    - Menu 2: Tampilkan daftar penonton 
+    - Menu 3: Exit 
+3.  Modifikasi kode program untuk menghandle apabila nomor baris/kolom kursi yang tidak tersedia 
+4.  Pada menu 1, modifikasi kode program untuk memberikan warning apabila kursi yang dipilih sudah terisi oleh penonton lainnya lalu munculkan perintah untuk memasukkan baris dan kolom kembali  
+5.  Pada menu 2, jika kursi kosong, ganti null dengan ***
+
+---
+
+##  Jawaban
+
+1.  Jawabannya tidak harus, pengisian elemen array dapat dilakukan dari indeks ke berapapun, namun jika pengisiannya tidak berurutan atau dilewati, maka elemen sebelumnya akan bernilai default sesuai tipe data nya.
+2.  
