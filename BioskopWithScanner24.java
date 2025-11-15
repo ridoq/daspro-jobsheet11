@@ -26,6 +26,10 @@ public class BioskopWithScanner24 {
                         System.out.println("Kursi tidak tersedia, silahkan inputkan ulang!");
                         continue;
                     }
+                    if(penonton[baris-1][kolom-1] != null){
+                        System.out.println("Kursi telah dipesan, silahkan pilih kursi yang lain!");
+                        continue;
+                    }
                     penonton[baris-1][kolom-1] = nama;
                     
                     System.out.print("Input penonton lainnya? (y/n): ");
@@ -37,7 +41,12 @@ public class BioskopWithScanner24 {
                     }
                 }
             } else if (menu == 2) {
+                //
+                // NYOBA NGULIK BUAT TAMPILAN SEPERTI TABEL IBU🙏
+                // MOHON MAAF KALAU BERANTAKAN KODE NYA IBU
+                //
                 System.out.println("=".repeat(50));
+                System.out.println("Daftar Penonton:\n");
                 for (int i = 0; i < penonton.length; i++) {
                     for (int j = 0; j < penonton[i].length; j++) {
                         if (penonton[i][j] != null) {
@@ -55,6 +64,7 @@ public class BioskopWithScanner24 {
                     System.out.println("-".repeat((jarakBaris * penonton[0].length) + 8));
                     System.out.print((i + 1) + "| ");
                     for (int j = 0; j < penonton[i].length; j++) {
+                        //TAMPILAN ISI ARRAY DISINI
                         System.out.printf("%-" + jarakBaris +"s | ", penonton[i][j]);
                     }
                     System.out.println();
