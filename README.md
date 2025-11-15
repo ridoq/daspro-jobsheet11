@@ -126,4 +126,8 @@
 ##  Jawaban
 
 1.  Jawabannya tidak harus, pengisian elemen array dapat dilakukan dari indeks ke berapapun, namun jika pengisiannya tidak berurutan atau dilewati, maka elemen sebelumnya akan bernilai default sesuai tipe data nya.
-2.  
+2.  Modifikasi:
+    - Menu 1: Input data penonton ✅
+    - Menu 2: Tampilkan daftar penonton ✅
+    - Menu 3: Exit ✅
+3.  
