@@ -169,4 +169,4 @@
 1.  done ✅
 2.  Fungsi dari _Arrays.toString()_ adalah untuk mengubah array menjadi sebuah string atau teks yang mudah dibaca oleh manusia, fungsi ini juga dapat menghindari output alamat memori dari sebuah array
 3.  nilai default dari elemen Array dengan tipe data int adalah *0*
-4.  
+4.  done ✅
