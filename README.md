@@ -89,10 +89,11 @@
 
 ##  Jawaban
 
-1.  Jawabannya tidak harus, pengisian elemen array dapat dilakukan dari indeks ke berapapun, namun jika pengisiannya tidak berurutan atau dilewati, maka elemen sebelumnya akan bernilai default sesuai tipe data nya
-2.  Karena elemen array indeks terakhir ([3][1]) tidak diisi, maka nilainya akan diisi nilai default, kenapa _null_? karena tipe data array adalah String, jadi nilai default String adalah null
-3.  Done
-4.  penonton.length berfungsi untuk mengukur panjang baris elemen (row) dari sebuah array, sedangkan penonton[0].length berfungsi untuk mengukur panjang kolom elemen pertama/indeks ke-0 (column). penonton[0].length, penonton[1].length, penonton[2].length, penonton[3].length bernilai *sama* yaitu = 2, karena pada saat instansiasi array, bagian kolom diisi 2 elemen
-5.  output kolom nya tetap sama yaitu 2, namun yang menjadi pembeda adalah terdapat sebuah output String "Panjang baris ke-1" dan seterusnya sebanyak kondisi perulangan, juga penulisan kode menjadi lebih efisien karena menggunakan perulangan
+1.  Jawabannya tidak harus, pengisian elemen array dapat dilakukan dari indeks ke berapapun, namun jika pengisiannya tidak berurutan atau dilewati, maka elemen sebelumnya akan bernilai default sesuai tipe data nya.
+2.  Karena elemen array indeks terakhir ([3][1]) tidak diisi, maka nilainya akan diisi nilai default, kenapa _null_? karena tipe data array adalah String, jadi nilai default String adalah null.
+3.  Done.
+4.  penonton.length berfungsi untuk mengukur panjang baris elemen (row) dari sebuah array, sedangkan penonton[0].length berfungsi untuk mengukur panjang kolom elemen pertama/indeks ke-0 (column). penonton[0].length, penonton[1].length, penonton[2].length, penonton[3].length bernilai *sama* yaitu = 2, karena pada saat instansiasi array, bagian kolom diisi 2 elemen.
+5.  Output kolom nya tetap sama yaitu 2, namun yang menjadi pembeda adalah terdapat sebuah output String "Panjang baris ke-1" dan seterusnya sebanyak kondisi perulangan, juga penulisan kode menjadi lebih efisien karena menggunakan perulangan.
 6.  Sama seperti nomor 5, namun kode saat ini menggunakan foreach loop yang memungkinkan program membaca setiap baris array tanpa perlu menyebutkan indeks secara manual. foreach secara otomatis melakukan iterasi melalui seluruh baris array dan mencetak panjang masing-masing baris, tanpa kita perlu menuliskan penonton[0], penonton[1], dan seterusnya.
-7.  
+7.  Program akan menampilkan output tambahan yaitu "Penonton pada bari ke-3: " yaitu "Eka" dan "Farhan" hal ini dapat terjadi karena terdapat sebuah perulangan yang berfungsi untuk menampilkan seluruh kolom array penonton pada baris indeks ke 2.
+8.  
