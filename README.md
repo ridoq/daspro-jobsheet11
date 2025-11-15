@@ -94,4 +94,5 @@
 3.  Done
 4.  penonton.length berfungsi untuk mengukur panjang baris elemen (row) dari sebuah array, sedangkan penonton[0].length berfungsi untuk mengukur panjang kolom elemen pertama/indeks ke-0 (column). penonton[0].length, penonton[1].length, penonton[2].length, penonton[3].length bernilai *sama* yaitu = 2, karena pada saat instansiasi array, bagian kolom diisi 2 elemen
 5.  output kolom nya tetap sama yaitu 2, namun yang menjadi pembeda adalah terdapat sebuah output String "Panjang baris ke-1" dan seterusnya sebanyak kondisi perulangan, juga penulisan kode menjadi lebih efisien karena menggunakan perulangan
-6.  
+6.  Sama seperti nomor 5, namun kode saat ini menggunakan foreach loop yang memungkinkan program membaca setiap baris array tanpa perlu menyebutkan indeks secara manual. foreach secara otomatis melakukan iterasi melalui seluruh baris array dan mencetak panjang masing-masing baris, tanpa kita perlu menuliskan penonton[0], penonton[1], dan seterusnya.
+7.  
