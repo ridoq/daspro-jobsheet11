@@ -96,5 +96,6 @@
 5.  Output kolom nya tetap sama yaitu 2, namun yang menjadi pembeda adalah terdapat sebuah output String "Panjang baris ke-1" dan seterusnya sebanyak kondisi perulangan, juga penulisan kode menjadi lebih efisien karena menggunakan perulangan.
 6.  Sama seperti nomor 5, namun kode saat ini menggunakan foreach loop yang memungkinkan program membaca setiap baris array tanpa perlu menyebutkan indeks secara manual. foreach secara otomatis melakukan iterasi melalui seluruh baris array dan mencetak panjang masing-masing baris, tanpa kita perlu menuliskan penonton[0], penonton[1], dan seterusnya.
 7.  Program akan menampilkan output tambahan yaitu "Penonton pada bari ke-3: " yaitu "Eka" dan "Farhan" hal ini dapat terjadi karena terdapat sebuah perulangan yang berfungsi untuk menampilkan seluruh kolom array penonton pada baris indeks ke 2.
-8.  Program akan menampilkan output sama seperti nomor 7, namun untuk perulangannya menggunakan foreach yang lebih fleksible untuk perulangan menggunakan kondisi banyak data.
-9.  
+8.  Program akan menampilkan output sama seperti nomor 7, namun untuk perulangannya menggunakan foreach yang lebih fleksibel untuk perulangan menggunakan kondisi banyak data.
+9.  Kode untuk menampilkan isi array penonton menjadi lebih efisien dan fleksibel karena kita hanya menggunakan perulangan yang kodenya lebih ringkas dibanding menuliskan manual, juga sangat fleksibel karena output yang akan ditampilkan sesuai dengan kondisi yang telah diterapkan, menghindari kesalahan penulisan indeks array
+10. 
