@@ -130,4 +130,4 @@
     - Menu 1: Input data penonton ✅
     - Menu 2: Tampilkan daftar penonton ✅
     - Menu 3: Exit ✅
-3.  
+3.  done ✅
