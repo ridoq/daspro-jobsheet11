@@ -171,3 +171,20 @@
 3.  nilai default dari elemen Array dengan tipe data int adalah *0*
 4.  done ✅
 5.  jawabannya tidak bisa, jika array sudah diinstansiasi maka panjang array tidak dapat diubah, karena length itu fixed atau tidak dapat diubah.
+
+---
+
+#   Percobaan 4 : Studi Kasus SIAKAD
+    Di dalam Sistem Informasi Akademik (SIAKAD), dosen mengisikan nilai mata kuliah (Dasar Pemrograman), mata kuliah 2 (Matematika), dan mata kuliah 3 (CTPS) untuk 4 orang siswa.
+
+---
+
+##  Soal
+
+1.  Bagaimana jika terdapat perubahan jumlah siswa dan jumlah mata kuliah? Modifikasi kode program SIAKAD untuk mengakomodasi jumlah siswa dan jumlah mata kuliah yang dinamis. 
+
+---
+
+##  Jawaban
+
+1.  done ✅, manambahkan variable jmlSiswa dan jmlMatkul yang nilainya diinputkan menggunakan scanner, juga menggunakan perintah _.length_ pada setiap kondisi perulangan, dan perhitungan aritmatika yang memakai panjang data sebuah baris atau kolom array.
